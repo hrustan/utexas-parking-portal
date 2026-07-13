@@ -1,0 +1,66 @@
+.tile {
+  display: block;
+  border: none;
+  font-family: inherit;
+  width: 100%;
+}
+
+button.tile {
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+
+/* ---- fill variant (Home 3-up) ---- */
+.fill {
+  background: var(--c-fill);
+  border-radius: var(--r-btn);
+  padding: 13px;
+  text-align: center;
+}
+button.fill:hover {
+  background: #efece5;
+}
+.fill .value {
+  font-size: 17px;
+  font-weight: 800;
+}
+.fill .label {
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--c-muted-2);
+  margin-top: 2px;
+}
+
+/* ---- card variant (Citations appeals/letters) ---- */
+.card {
+  background: #fff;
+  border: 1px solid var(--c-border-card);
+  border-radius: var(--r-btn-lg);
+  padding: 13px 14px;
+  text-align: left;
+}
+button.card:hover {
+  background: var(--c-fill);
+}
+.card .value {
+  font-size: 20px;
+  font-weight: 800;
+}
+.card .label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--c-muted);
+}
+
+/* ---- value tones ---- */
+.value.ink {
+  color: var(--c-ink);
+}
+.value.success {
+  color: var(--c-success);
+}
+.value.danger {
+  color: var(--c-danger);
+}

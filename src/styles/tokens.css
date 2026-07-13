@@ -1,0 +1,64 @@
+:root {
+  /* ---- Brand / primary ---- */
+  --c-primary: #bf5700;
+  --c-primary-hover: #9a4600;
+  --c-primary-pressed: #9a4500;
+
+  /* ---- Ink / text ---- */
+  --c-ink: #333f48;
+  --c-text-2: #5c6670;
+  --c-text-3: #6b747b;
+  --c-muted: #8a9298;
+  --c-muted-2: #98a0a6;
+  --c-muted-3: #a2a9ae;
+  --c-faint: #b7bec3;
+
+  /* ---- Surfaces ---- */
+  --c-page-bg: #f4f1eb;
+  --c-card-bg: #ffffff;
+  --c-fill: #f7f5f0;
+  --c-fill-2: #f0ebe1;
+  --c-input-bg: #fbfaf7;
+
+  /* ---- Borders ---- */
+  --c-border-card: #e7e3da;
+  --c-border-divider: #eeeae1;
+  --c-border-divider-2: #f1ede4;
+  --c-border-input: #e1dcd0;
+  --c-border-dark: #55606a;
+
+  /* ---- Semantic ---- */
+  --c-success: #2f7d4e;
+  --c-success-tint: #e7f3ea;
+  --c-info: #005f86;
+  --c-info-tint: #eaf3f7;
+  --c-info-border: #cfe4ec;
+  --c-announce-tint: #fbeee3;
+  --c-announce-border: #f2d9c4;
+  --c-danger: #b3261e;
+  --c-danger-border: #f0d9d6;
+
+  /* ---- Radii ---- */
+  --r-chip: 6px;
+  --r-md: 11px;
+  --r-btn: 12px;
+  --r-btn-lg: 14px;
+  --r-card: 16px;
+  --r-card-lg: 18px;
+  --r-pill: 20px;
+  --r-modal: 20px;
+
+  /* ---- Shadows ---- */
+  --shadow-card: 0 14px 34px -24px rgba(40, 30, 10, 0.3);
+  --shadow-card-strong: 0 14px 34px -26px rgba(40, 30, 10, 0.3);
+  --shadow-primary: 0 12px 26px -8px rgba(191, 87, 0, 0.5);
+  --shadow-primary-soft: 0 12px 26px -12px rgba(191, 87, 0, 0.5);
+  --shadow-modal: 0 30px 70px -20px rgba(20, 15, 5, 0.5);
+
+  /* ---- Layout ---- */
+  --nav-h: 62px;
+
+  /* ---- Type ---- */
+  --font-sans: 'Libre Franklin', system-ui, -apple-system, 'Segoe UI', Roboto,
+    sans-serif;
+}

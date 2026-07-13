@@ -1,0 +1,90 @@
+.rail {
+  background: #fff;
+  border: 1px solid var(--c-border-card);
+  border-radius: var(--r-card);
+  padding: 18px;
+  position: sticky;
+  top: 16px;
+}
+
+.label {
+  margin-bottom: 14px;
+}
+
+.itemRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.itemName {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: var(--c-ink);
+}
+
+.itemDates {
+  font-size: 11px;
+  color: var(--c-muted);
+  margin-top: 2px;
+}
+
+.itemPrice {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--c-ink);
+}
+
+.feeRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--c-border-divider-2);
+  font-size: 12.5px;
+  color: var(--c-text-3);
+}
+
+.feeValue {
+  font-weight: 700;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--c-border-divider-2);
+}
+
+.totalLabel {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--c-ink);
+}
+
+.totalValue {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--c-primary);
+}
+
+.empty {
+  font-size: 12.5px;
+  color: var(--c-muted);
+  line-height: 1.5;
+  padding: 2px 0 14px;
+}
+
+.action {
+  margin-top: 18px;
+}
+
+.footnote {
+  font-size: 11px;
+  color: var(--c-muted-3);
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.4;
+}

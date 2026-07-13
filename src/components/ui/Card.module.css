@@ -1,0 +1,29 @@
+.card {
+  background: var(--c-card-bg);
+  border: 1px solid var(--c-border-card);
+  padding: 22px;
+}
+
+.dark {
+  background: var(--c-ink);
+  border-color: var(--c-ink);
+  color: #fff;
+}
+
+.elevated {
+  box-shadow: var(--shadow-card);
+}
+
+.clip {
+  overflow: hidden;
+}
+
+.r14 {
+  border-radius: var(--r-btn-lg);
+}
+.r16 {
+  border-radius: var(--r-card);
+}
+.r18 {
+  border-radius: var(--r-card-lg);
+}

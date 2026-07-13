@@ -1,0 +1,126 @@
+.nav {
+  height: var(--nav-h);
+  background: #fff;
+  border-bottom: 1px solid var(--c-border-divider);
+}
+
+/* Centered container that tracks the page body's width (860 content + 40px
+   gutters = 940), so the nav's contents line up with the page below it. */
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.brandChip {
+  display: flex;
+  align-items: center;
+  height: 34px;
+  padding: 0 11px;
+  border-radius: 9px;
+  background: var(--c-primary);
+}
+
+.seal {
+  height: 19px;
+  display: block;
+}
+
+.pills {
+  display: flex;
+  gap: 3px;
+  margin-left: 20px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  padding: 0 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--c-text-2);
+  white-space: nowrap;
+  text-decoration: none;
+  transition:
+    background 150ms ease,
+    color 150ms ease;
+}
+
+.pill:hover {
+  background: #faf3ec;
+  text-decoration: none;
+}
+
+.pillActive,
+.pillActive:hover {
+  background: var(--c-announce-tint);
+  color: var(--c-primary);
+}
+
+.right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.iconBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: #7a828a;
+  padding: 0;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--c-ink);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 11px;
+}
+
+.firstName {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--c-ink);
+}
+
+@media (max-width: 640px) {
+  .inner {
+    padding: 0 18px;
+  }
+}

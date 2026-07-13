@@ -1,0 +1,97 @@
+.card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  border: 1.5px solid var(--c-border-card);
+  border-radius: var(--r-card);
+  padding: 16px;
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.card:hover {
+  border-color: #d8cfbc;
+}
+
+.selected {
+  border-color: var(--c-primary);
+  box-shadow: 0 0 0 1px var(--c-primary);
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 15.5px;
+  font-weight: 800;
+  color: var(--c-ink);
+}
+
+.desc {
+  font-size: 12px;
+  color: #7a828a;
+  line-height: 1.45;
+  margin-top: 3px;
+}
+
+.radioOn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--c-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.radioOff {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #d8d2c6;
+  flex: 0 0 auto;
+}
+
+.priceRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--c-primary);
+}
+
+.priceLabel {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--c-muted-3);
+}
+
+.feeChip {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--c-text-2);
+  background: var(--c-page-bg);
+  border-radius: 7px;
+  padding: 3px 8px;
+}

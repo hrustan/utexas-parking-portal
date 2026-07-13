@@ -1,0 +1,32 @@
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 4px 9px;
+  border-radius: var(--r-pill);
+  white-space: nowrap;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.success {
+  background: var(--c-success-tint);
+  color: var(--c-success);
+}
+
+.neutral {
+  background: var(--c-fill-2);
+  color: #7a828a;
+}
+
+.amber {
+  background: #fbeee3;
+  color: #b06a1e;
+}
